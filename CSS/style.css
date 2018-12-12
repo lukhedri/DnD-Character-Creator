@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Balthazar';
+    src: url('fonts/balthazar-regular-webfont.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+        url('fonts/balthazar-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/balthazar-regular-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/balthazar-regular-webfont.svg') format('svg'); /* Legacy iOS */
+}
+
+* {
+    font-family: 'Balthazar';
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.tableNorm {
+    text-align: center;
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 110%;
+    margin: 5px 0;
+    border: 1px;
+    margin: auto;
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+}
+
+th{
+    background-color: #EC2125;
+    text-decoration: none;
+    border: 1px solid black;
+
+}
+
+tr,td{
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 3px;
+    color: black;
+}
+tr,th,td a
+{
+    color: black;
+    text-decoration: none;
+}
+
+tr,td a:hover{
+    color: white;
+}
+
+#footer {
+    height: 40px;
+    font-size: 90%;
+
+    text-align: center;
+
+    border-radius: 0 0 15px 0;
+    -moz-border-radius: 0 0 15px 0;
+    -moz-border-radius: 0 0 15px 0;
+
+}
+.checks {
+    background-color: lightgrey;
+    width: 200px;
+    height: 35px;
+    border: 5px solid #EC2125;
+    margin: 15px;
+    text-align: center; 
+    top: 50%;
+    display: inline-block;
+}
+.center {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+table.abcenter {
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+}
+#boxHolder
+{
+    padding-left: 100px;
+
+}
+.textCenter
+{
+    text-align: center; 
+}
+#resetButton
+{
+
+}
+
+.generalButton{
+    font-size: 100%; 
+    border-radius: 5px; 
+    background-color: black; 
+    color: white;
+}
+.wrapper {
+    background-color: lightgray;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 110%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+#navbar {
+
+    background-color: #ff4d4d;
+    padding: 5px 10px;
+    clear: right;
+
+}
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+#navbar a:hover,
+#navbar a:active,
+#navbar a:focus
+{
+    color: white;
+}
+
+.rollresult {
+    background-color: white;
+}
